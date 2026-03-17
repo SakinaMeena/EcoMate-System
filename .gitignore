@@ -1,0 +1,59 @@
+# =================================================================
+# ECOMATE SYSTEM MASTER GITIGNORE
+# =================================================================
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+Thumbs.db
+
+# typescript
+*.tsbuildinfo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env*.local
+.env.local
+.env
+
+app-example
+
+# generated native folders
+ecomate-driver-app/android/
+ecomate-driver-app/ios/
+
+# Temp/dev files
+fix.py
+fix_solver.py
+*.log

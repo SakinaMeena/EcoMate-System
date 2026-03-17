@@ -1,0 +1,17 @@
+.env
+.env.local
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+fix.py
+fix_solver.py
+*.log
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
