@@ -2,7 +2,7 @@ This folder represents the administration website of the EcoMate system. The adm
  
 Contributors:
 
-Frontend design - Emily Maria Robert. 
-Spatial insight page - Emily Maria Robert
+Frontend design - Emily Maria Robert.  
+                                                                                                         Spatial insight page - Emily Maria Robert
 Audit page - Dhaavita Sookun.
 Driver management page - Sakina Hussein Meena.
