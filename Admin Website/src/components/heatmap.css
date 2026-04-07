@@ -1,0 +1,153 @@
+.heatmap-panel {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;   
+  gap: 12px;
+
+  background: #f2f5f0;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px;
+  z-index: 2000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.HM_date-range {
+  display: flex;
+  gap: 2px;
+}
+
+.Date-search{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonHM {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.button---apply {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.button-apply {
+  background: #245B43;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+.Date{
+color: black;
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.input-field1{
+width: 100px ;
+}
+
+
+
+
+
+.heatmap-options {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 0px;
+  border-radius: 12px;
+  background: #f2f5f0;        
+  border: 1px solid #e7efec;
+  width: fit-content;
+  margin-right: 4px;
+}
+
+
+.heatmap-options label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #123;                 
+  white-space: nowrap;
+                
+}
+
+
+.heatmap-options select {
+  width: 150px;
+  padding: 10px 42px 10px 12px; 
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+
+  background: none;
+  border: 2px solid var(--green);
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  
+  background-image:
+    linear-gradient(45deg, transparent 50%, #245b43 50%),
+    linear-gradient(135deg, #245b43 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) 55%,
+    calc(100% - 12px) 55%;
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+
+  transition: 0.2s ease;
+}
+
+
+.heatmap-options select:hover {
+  border-color: var(--green);
+}
+
+
+.heatmap-options select:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 4px rgba(2, 63, 2, 0.22);
+}
+
+
+.heatmap-options select:has(option[value=""]:checked) {
+  color: #066505; 
+}
+
+@media (max-width: 520px) {
+  .heatmap-options {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .heatmap-options select {
+    flex: 1;
+    min-width: 0;
+  }
+}

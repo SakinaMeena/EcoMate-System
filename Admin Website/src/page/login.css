@@ -1,0 +1,384 @@
+
+
+/* The full page background */
+.website-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f2f5f0; 
+}
+.login-head {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      /* center horizontally */
+  text-align: center;
+}
+
+.login-head h1 {
+  color: #245B43;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 700;   /* ← THIS makes it bold */
+  padding-top: 10px;
+}
+
+.input-container h2 {
+  color:#ffffff;
+  font: 'sans-serif';
+  font-size: 20px;
+  text-align: center;
+  margin-top: -10px;
+   font-weight: 700; 
+}
+
+
+.logo-image{
+  height: 360px; 
+  width:auto; 
+  padding-top: 35px;
+  display: block;    
+  margin: 0 auto;  
+  margin-top: -15px; 
+}
+
+/* The white card container */
+.loginbox {
+  background-color: #245B43;
+  width: 700px;
+  height: 340px;
+  padding: 35px 50px 0; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: block;    
+  margin-left: auto;  
+  margin-right: auto;
+  padding-bottom: 0px;
+  margin-top: 30px;
+}
+.loginbox h3 {
+font-size: 16px;
+font:'Open sans';
+color: rgb(211, 25, 25);
+text-align: left;
+}
+
+
+.loginbox h4 {
+font: 16px;
+color:  rgb(211, 25, 25);
+text-align: left;
+
+}
+
+/* Input fields */
+.input-container {
+  margin-bottom: 20px;
+  text-align:left;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fffafa;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.input-field0 {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+
+/* Button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+
+  
+  
+ 
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+
+
+  background-color: transparent;
+  color: #ffffff;
+
+  border: 2px solid #ffffff;  /* Outline colour */
+  border-radius: 999px; 
+
+
+
+
+
+}
+
+.login-button:hover {
+  background-color: #cdcdd7;
+}
+
+
+.error-message {
+ color: rgb(240, 21, 21);
+ font-size: 16px;
+
+}
+
+
+.password-warning{
+  text-align: center;
+ 
+  line-height: 1.3;
+  margin: 0 auto;
+  color: #055116;
+   font-weight: 600;
+  font-size: 20px;
+}
+.password-warning2{
+  text-align: center;
+  font-weight: 450;
+  line-height: 1.3;
+
+  margin: 0 auto;
+  color: #000000;
+  white-space: nowrap; 
+
+}
+
+
+.loginbox2 {
+  background-color: #245B43;
+  width: 700px;
+  height: 280px;
+  padding: 35px 50px 0; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: block;    
+  margin-left: auto;  
+  margin-right: auto;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+.security_Warning{
+color: #ff0a0a;
+text-align: center;
+margin-top: -1px;
+
+}
+
+.logo-image2{
+  height: 320px; 
+  width:auto; 
+  padding-top: 35px;
+  display: block;    
+  margin: 0 auto;  
+  margin-top: -15px; 
+}
+
+.success-message{
+  color: green;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.box {
+  background: rgb(216, 34, 34);
+  
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+  margin-top: 400px;
+  width: 600px;
+  margin-left: 600px;
+  
+ 
+}
+
+.superadmin-button {
+  background-color: #245B43;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.superadmin-button:hover {
+  background-color: #1d4a37;
+  transform: translateY(-2px);
+}
+
+
+.input-container2 {
+  margin-bottom: 10px;
+  text-align:left;
+}
+
+.loginbox3 {
+  background-color: #245B43;
+  width: 700px;
+  height: 340px;
+  padding: 35px 50px 0; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: block;    
+  margin-left: auto;  
+  margin-right: auto;
+  padding-bottom: 0px;
+  margin-top: 0px;
+
+}
+
+.bottomTag1 {
+  color: #245B43;
+  text-align: center;
+  font-size: 12px;
+  transform: translateY(17px);
+  margin-top: -20px;
+  
+} 
+
+.bottomTag {
+  color: #245B43;
+  text-align: center;
+  font-size: 12px;
+  transform: translateY(17px);
+  margin-top: -20px;
+  
+} 
+
+
+.forgot-password {
+  color: #ffffff;
+  text-align: right;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+
+.module-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:60vh;
+}
+
+.module-card{
+  background:white;
+  padding:40px;
+  border-radius:16px;
+  width:420px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  margin-top: 100px;
+}
+
+.module-title{
+  color:#245B43;
+  font-size:22px;
+  font-weight:600;
+  margin-bottom:6px;
+}
+
+.module-subtitle{
+  color:#666;
+  font-size:14px;
+  margin-bottom:30px;
+}
+
+.module-buttons{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.module-btn{
+  padding:14px;
+  border-radius:10px;
+  border:none;
+  font-size:16px;
+  font-weight:500;
+  cursor:pointer;
+  transition:all 0.25s ease;
+}
+
+.awareness{
+  background:#2f6b4f;
+  color:white;
+}
+
+.management{
+  background:#1f4f3a;
+  color:white;
+}
+
+.module-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.loginbox5 .reset-title {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700; 
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+  
+
+
+.loginbox5 .verify-btn {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500; 
+  margin-bottom: 10px;
+  background-color: transparent;
+
+  border: 2px solid #ffffff;
+  border-radius: 99px;
+  width: 120px;
+  padding-right: 20px;
+  display: block;
+  margin-left: auto;
+  margin-top: 10px;   /* moves button to right */
+}
+  
+.loginbox5 {
+  background-color: #245B43;
+  width: 700px;
+  height: 370px;
+  padding: 35px 50px 0; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ 
+  display: block;    
+  margin-left: auto;  
+  margin-right: auto;
+  padding-bottom: 0px;
+  margin-top: 30px;
+}
+  

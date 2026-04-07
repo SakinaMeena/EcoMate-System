@@ -1,0 +1,87 @@
+.guide-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-box {
+  background: white;
+  padding: 16px;
+  width: 360px;
+  border-radius: 8px;
+}
+
+.guide-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guide-btn {
+  margin-left: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 18px;
+}
+
+
+.guide-float {
+  position: absolute;
+  left: calc(100% + 12px); 
+  top: 80px;
+
+  width: 310px;
+  max-height: 70vh;
+  overflow-y: auto;
+
+  background: #f2f5f0;
+  border-radius: 14px;
+  padding: 14px;
+
+  z-index: 9999;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+
+}
+.guide-content{
+   font-size: 16px;
+  align-content: center;
+  color: rgb(255, 47, 0);
+   }
+
+
+   .guide-content h4{
+
+    font-size: 16px;
+  align-content: center;
+  color: rgb(60, 15, 4);
+   }
+
+
+.guide-header{
+   font-size: 16px;
+
+}
+
+.guide-note{
+  color: #4a724a;;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+.classification-font2{
+  font-size: 14px;
+  font-weight: 500;
+  color: #3f3f3f;
+}
+
+.classification-font3{
+  font-size: 14px;
+  font-weight: 800;
+  color: #000000;
+}

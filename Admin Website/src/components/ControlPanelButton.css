@@ -1,0 +1,88 @@
+.control-panel-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 500;
+  padding-left: 30px;
+}
+
+/* Main button */
+.control-panel-button {
+  width: 260px;
+  padding: 12px 14px;
+
+  background-color: var(--green);
+  border: 1px solid #000000;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Left side (icon + text) */
+.panel-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-hamburger {
+  font-size: 18px;
+}
+
+.panel-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.icon-chevron {
+  font-size: 12px;
+}
+
+
+.control-panel-body {
+  margin-top: 10px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+
+.panel-option {
+  width: 100%;
+  padding: 12px 14px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.panel-option:hover {
+  background-color: #f3f4f6;
+}
+
+
+.icon-chevron {
+  transition: transform 0.2s ease;
+   color: #ffffff;
+}
+
+.icon-chevron.open {
+  transform: rotate(180deg);
+}
+
+
+.panel-title {
+  color: #ffffff;
+}
+
+.icon-hamburger {
+  color: #ffffff;
+}
