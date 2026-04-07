@@ -4,5 +4,5 @@ Contributors:
 
 Frontend design - Emily Maria Robert.  
                                                                                                          Spatial insight page - Emily Maria Robert
-                                                                                                Audit page - Dhaavita Sookun.
-                                                                                           Driver management page - Sakina Hussein Meena.
+                                                                                                           Audit page - Dhaavita Sookun.
+                                                                                                          Driver management page - Sakina Hussein Meena.
