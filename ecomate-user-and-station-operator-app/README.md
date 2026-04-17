@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+EcoMate User & Station Operator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile application that is part of the larger EcoMate System, built with React Native (Expo) for managing the collection and tracking of Used Cooking Oil (UCO).
 
-## Get started
+This application serves two primary roles within the EcoMate ecosystem:
+1. Users – Individuals contributing UCO for sustainable recycling
+2. Station Operators – Personnel managing collection points and depot transfers
 
-1. Install dependencies
+The app is designed to promote sustainability, improve operational efficiency, and enhance user engagement through gamification and real-time tracking.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+Key Features
 
-   ```bash
-   npx expo start
-   ```
+1.User Features
+-Schedule Pickup
+Users can request doorstep UCO collection by selecting date, time, and location.
 
-In the output, you'll find options to open the app in a
+-Self-Delivery Logging
+Users can deliver UCO to stations using:
+QR code scanning
+6-digit fallback code
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+-UCO Journey Tracking
+Real-time tracking of UCO lifecycle:
+Collected
+Sent to Depot
+Reached Depot
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+-History Tracking
+View past transactions and collection records.
 
-## Get a fresh project
+-Impact Dashboard
+Displays environmental contribution:
+Total UCO collected
+CO₂ emissions reduced
+Water pollution prevented
 
-When you're ready, run:
+Station Operator Features
+-Collection Logging
+Record UCO received from users.
 
-```bash
-npm run reset-project
-```
+-Depot Transfer Management
+Mark batches as “Out to Depot”
+Confirm Depot Arrival
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+-QR / Code Verification
+Ensure secure and accurate transaction validation.
 
-## Learn more
+-Operational Tracking
+Maintain consistency between user records and system status updates.
 
-To learn more about developing your project with Expo, look at the following resources:
+Gamification System
+To encourage continuous participation and environmental awareness, the app integrates a gamification layer:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+-Points System
+Users earn points based on UCO contributions
 
-## Join the community
+-Badges & Achievements
+Rewards for milestones (e.g., frequent contributions)
 
-Join our community of developers creating universal apps.
+-Leaderboard (Conceptual / Extendable)
+Encourages friendly competition among users
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-Avatar Customisation
+Personalisation to enhance user engagement.
+
+-Educational Content
+Interactive content to promote sustainability awareness
+
+The gamification system transforms routine recycling into an engaging and rewarding experience, improving user retention and participation
+
+
+Tech Stack
+Frontend: React Native (Expo)
+Backend: Supabase (Database + Authentication)
+APIs & Logic: Supabase Edge Functions
+Navigation: Expo Router
+State Management: React Hooks
+
+
+Contributors
+-Frontend Developer & Designer
+Nathaniella Payet
+
+-Gamification Design & Implementation
+Swafaa Salim Omar
+
+-Backend Development (Supabase & Integration)
+Dhaavitha Sookun
+
+-User Home Information Display Support
+Sakina Hussein Meena
