@@ -9,9 +9,10 @@ This application serves two primary roles within the EcoMate ecosystem:
 The app is designed to promote sustainability, improve operational efficiency, and enhance user engagement through gamification and real-time tracking.
 
 
+
 Key Features
 
-1.User Features
+1.User Features:
 -Schedule Pickup
 Users can request doorstep UCO collection by selecting date, time, and location.
 
@@ -35,7 +36,8 @@ Total UCO collected
 CO₂ emissions reduced
 Water pollution prevented
 
-Station Operator Features
+
+2.Station Operator Features
 -Collection Logging
 Record UCO received from users.
 
